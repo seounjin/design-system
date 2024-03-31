@@ -45,6 +45,7 @@ export const ExampleModal: StoryObj<ModalProps> = {
           </Modal.Body>
           <Modal.Footer>
             <Button
+              aria-label="modal open"
               size="sm"
               variant="primary"
               color="gray"
@@ -52,7 +53,13 @@ export const ExampleModal: StoryObj<ModalProps> = {
             >
               Open
             </Button>
-            <Button size="sm" variant="outline" color="gray" onClick={onClose}>
+            <Button
+              aria-label="modal close"
+              size="sm"
+              variant="outline"
+              color="gray"
+              onClick={onClose}
+            >
               Close
             </Button>
           </Modal.Footer>

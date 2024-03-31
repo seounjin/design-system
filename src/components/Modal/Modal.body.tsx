@@ -1,7 +1,7 @@
 import { PropsWithChildren } from "react";
 
 const ModalBody = ({ children }: PropsWithChildren) => {
-  return <div>{children}</div>;
+  return <div id="modal-description">{children}</div>;
 };
 
 export default ModalBody;
