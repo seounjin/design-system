@@ -71,3 +71,12 @@ export const OptionItem = styled.li`
     background-color: ${theme.colors.sjGray[20]};
   }
 `;
+
+export const StyledInput = styled.input`
+  width: 100%;
+  height: 100%;
+  border: 2px solid ${theme.colors.sjBlack};
+  border-radius: 10px;
+  padding-left: 20px;
+  font-size: 16px;
+`;
